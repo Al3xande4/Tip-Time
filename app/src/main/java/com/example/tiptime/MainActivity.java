@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void calculateTip(){
-        String stringCost = binding.costOfService.getText().toString();
+        String stringCost = binding.CostOfService.getText().toString();
         if("".equals(stringCost)){
             Toast.makeText(this, "Uncorrect symbol, please enter a digit", Toast.LENGTH_SHORT).show();
             return;
